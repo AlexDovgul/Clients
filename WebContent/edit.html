@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>редактирование клиента</title>
+</head>
+<body>
+	<h2>Добавить нового клиента</h2>
+	<a href="clients.html">Вернуться к списку</a><br><br>
+	<input type="hidden" name="id"> Сокращенное наименование -
+	<select name="shortname">
+		<option>СИК</option>
+		<option>РИК</option>
+		<option>ГУО</option>
+	</select>
+	<br>
+	<br> Наименование -
+	<br>
+	<textarea name="name" cols="30" rows="3"></textarea>
+	<br>
+	<br> Район -
+	<select name="area">
+		<option>Мядельский</option>
+		<option>Минский</option>
+		<option>Борисовский</option>
+	</select>
+	<br>
+	<br> Адрес, телефон ... -
+	<br>
+	<textarea name="address" cols="30" rows="3"></textarea>
+	<br>
+	<br> Тариф -
+	<select name="tarif">
+		<option>Бюджетный</option>
+		<option>Договорной</option>
+		<option>Партнерский</option>
+	</select>
+	<br>
+	<br> Договор -
+	<input type="text" name="dogovor">
+	<br>
+	<br> Комплект -
+	<br>
+	<textarea name="complect" cols="30" rows="3"></textarea>
+	<br>
+	<br> Локальный -
+	<input type="text" name="local"> или Сетевой -
+	<input type="text" name="network">
+	<br>
+	<br> Способ обновления -
+	<select name="update">
+		<option>CD</option>
+		<option>DVD1</option>
+		<option>FTP</option>
+	</select>
+	<br>
+	<br> Примечание -
+	<br>
+	<textarea name="annotation" cols="30" rows="3"></textarea> <br><br>
+	<input type="submit" name="save" value="Сохранить"><br>
+</body>
+</html>
