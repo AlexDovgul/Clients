@@ -3,13 +3,20 @@
 <head>
 <meta charset="UTF-8">
 <title>Список клиентов</title>
+<script type="text/javascript" language="javascript" src="./lib/jquery.js"></script>
+		<script type="text/javascript" language="javascript" src="./lib/jquery.dataTables.js"></script>
+		<script type="text/javascript" charset="utf-8">
+			$(document).ready(function() {
+				$('#example').dataTable();
+			} );
+		</script>
 </head>
 <body bgcolor="yellow">
 	<h2>Список клиентов</h2>
 	<a href="newClient.html"><b>Добавить нового клиента</b></a>
 	<br>
 	<br>
-	<table border="1">
+	<table border="1" id="example">
 		<tbody>
 			<tr>
 				<td></td>
